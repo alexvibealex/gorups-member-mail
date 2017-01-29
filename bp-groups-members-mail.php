@@ -3,7 +3,7 @@
 Plugin Name: Group Members Mail Plugin
 Plugin URI: http://www.poolgab.com
 Description: A simple WordPress plugin to send mails to all buddypress group members  
-Version: 1.0
+Version: 1.1
 Author: alexhal
 Author URI: http://www.poolgab.com
 License: GPL2
