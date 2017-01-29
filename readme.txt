@@ -14,6 +14,12 @@ Allows Buddypress group Mods to send email to all group members .
 == Description ==
 
 Allows Buddypress group Mods to send email to all group members from group admin/manage section.
+To enable E-mail members for mods simply put the code given below in your bp-groups-members-mail.php file in the end from wp-admin-> plugins-> editor :
+
+`add_filter('gmm_enable_for_mods','gmm_enabled_for_mods');
+function gmm_enabled_for_mods(){
+    return true;
+}`
 
 
 
